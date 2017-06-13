@@ -1,4 +1,6 @@
-# Hello! And Welcome To:  The VenPath iOS SDK!!!1
+# Hello! And Welcome To...
+
+The VenPath iOS SDK!!!1
 
 # Documentation
 
