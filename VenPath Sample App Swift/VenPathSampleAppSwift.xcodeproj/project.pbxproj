@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8636A7111EB1EEA6004F8318 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8636A7101EB1EEA6004F8318 /* AppDelegate.swift */; };
+		8636A7131EB1EEA6004F8318 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8636A7121EB1EEA6004F8318 /* ViewController.swift */; };
+		8636A7161EB1EEA6004F8318 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8636A7141EB1EEA6004F8318 /* Main.storyboard */; };
+		8636A7181EB1EEA6004F8318 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8636A7171EB1EEA6004F8318 /* Assets.xcassets */; };
+		8636A71B1EB1EEA6004F8318 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8636A7191EB1EEA6004F8318 /* LaunchScreen.storyboard */; };
+		8636A72B1EB1F07D004F8318 /* libVenPath.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8636A7291EB1F07D004F8318 /* libVenPath.a */; };
+		8636A72E1EB1F142004F8318 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8636A72D1EB1F142004F8318 /* AdSupport.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8636A70D1EB1EEA6004F8318 /* VenPathSampleAppSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VenPathSampleAppSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8636A7101EB1EEA6004F8318 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8636A7121EB1EEA6004F8318 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8636A7151EB1EEA6004F8318 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8636A7171EB1EEA6004F8318 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8636A71A1EB1EEA6004F8318 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8636A71C1EB1EEA6004F8318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8636A7291EB1F07D004F8318 /* libVenPath.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libVenPath.a; path = "../../VenPath Library/libVenPath.a"; sourceTree = "<group>"; };
+		8636A72A1EB1F07D004F8318 /* VenPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VenPath.h; path = "../../VenPath Library/VenPath.h"; sourceTree = "<group>"; };
+		8636A72D1EB1F142004F8318 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		8636A72F1EB1F2E8004F8318 /* VenPathSampleAppSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "VenPathSampleAppSwift-Bridging-Header.h"; path = "../../VenPath Library/VenPathSampleAppSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8636A70A1EB1EEA6004F8318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8636A72E1EB1F142004F8318 /* AdSupport.framework in Frameworks */,
+				8636A72B1EB1F07D004F8318 /* libVenPath.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8636A7041EB1EEA6004F8318 = {
+			isa = PBXGroup;
+			children = (
+				8636A70F1EB1EEA6004F8318 /* VenPath Sample App Swift */,
+				8636A70E1EB1EEA6004F8318 /* Products */,
+				8636A72C1EB1F142004F8318 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8636A70E1EB1EEA6004F8318 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8636A70D1EB1EEA6004F8318 /* VenPathSampleAppSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8636A70F1EB1EEA6004F8318 /* VenPath Sample App Swift */ = {
+			isa = PBXGroup;
+			children = (
+				8636A7291EB1F07D004F8318 /* libVenPath.a */,
+				8636A72A1EB1F07D004F8318 /* VenPath.h */,
+				8636A72F1EB1F2E8004F8318 /* VenPathSampleAppSwift-Bridging-Header.h */,
+				8636A7101EB1EEA6004F8318 /* AppDelegate.swift */,
+				8636A7121EB1EEA6004F8318 /* ViewController.swift */,
+				8636A7141EB1EEA6004F8318 /* Main.storyboard */,
+				8636A7171EB1EEA6004F8318 /* Assets.xcassets */,
+				8636A7191EB1EEA6004F8318 /* LaunchScreen.storyboard */,
+				8636A71C1EB1EEA6004F8318 /* Info.plist */,
+			);
+			path = "VenPath Sample App Swift";
+			sourceTree = "<group>";
+		};
+		8636A72C1EB1F142004F8318 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8636A72D1EB1F142004F8318 /* AdSupport.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8636A70C1EB1EEA6004F8318 /* VenPathSampleAppSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8636A71F1EB1EEA6004F8318 /* Build configuration list for PBXNativeTarget "VenPathSampleAppSwift" */;
+			buildPhases = (
+				8636A7091EB1EEA6004F8318 /* Sources */,
+				8636A70A1EB1EEA6004F8318 /* Frameworks */,
+				8636A70B1EB1EEA6004F8318 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VenPathSampleAppSwift;
+			productName = "VenPath Sample App Swift";
+			productReference = 8636A70D1EB1EEA6004F8318 /* VenPathSampleAppSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8636A7051EB1EEA6004F8318 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = VenPath;
+				TargetAttributes = {
+					8636A70C1EB1EEA6004F8318 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 8636A7081EB1EEA6004F8318 /* Build configuration list for PBXProject "VenPathSampleAppSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8636A7041EB1EEA6004F8318;
+			productRefGroup = 8636A70E1EB1EEA6004F8318 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8636A70C1EB1EEA6004F8318 /* VenPathSampleAppSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8636A70B1EB1EEA6004F8318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8636A71B1EB1EEA6004F8318 /* LaunchScreen.storyboard in Resources */,
+				8636A7181EB1EEA6004F8318 /* Assets.xcassets in Resources */,
+				8636A7161EB1EEA6004F8318 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8636A7091EB1EEA6004F8318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8636A7131EB1EEA6004F8318 /* ViewController.swift in Sources */,
+				8636A7111EB1EEA6004F8318 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8636A7141EB1EEA6004F8318 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8636A7151EB1EEA6004F8318 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8636A7191EB1EEA6004F8318 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8636A71A1EB1EEA6004F8318 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8636A71D1EB1EEA6004F8318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8636A71E1EB1EEA6004F8318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8636A7201EB1EEA6004F8318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "VenPath Sample App Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../VenPath\\ Library",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.venpath.VenPath-Sample-App-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../VenPath Library/$(PROJECT_NAME)-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8636A7211EB1EEA6004F8318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "VenPath Sample App Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../VenPath\\ Library",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.venpath.VenPath-Sample-App-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../VenPath Library/$(PROJECT_NAME)-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8636A7081EB1EEA6004F8318 /* Build configuration list for PBXProject "VenPathSampleAppSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8636A71D1EB1EEA6004F8318 /* Debug */,
+				8636A71E1EB1EEA6004F8318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8636A71F1EB1EEA6004F8318 /* Build configuration list for PBXNativeTarget "VenPathSampleAppSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8636A7201EB1EEA6004F8318 /* Debug */,
+				8636A7211EB1EEA6004F8318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8636A7051EB1EEA6004F8318 /* Project object */;
+}
