@@ -20,7 +20,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     VenPath *venpath = [VenPath shared];
-    [venpath auth:@"SDK KEY HERE" token:@"TOKEN HERE" secret:@"SECRET HERE" ];
+    [venpath sdkKey:@"SDK KEY HERE" publicKey:@"TOKEN HERE" secretKey:@"SECRET HERE" ];
     
 //    venpath.debug = YES;
     venpath.connectionErrorHandler = ^void (NSString *error) {

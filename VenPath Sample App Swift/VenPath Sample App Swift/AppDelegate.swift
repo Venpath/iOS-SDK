@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         self.venpath = VenPath.shared()
-        self.venpath.auth("SDK KEY HERE", token: "TOKEN HERE", secret: "SECRET HERE")
+        self.venpath.sdkKey("SDK KEY HERE", publicKey: "TOKEN HERE", secretKey: "SECRET HERE")
         
         venpath.debug = true;
         

@@ -18,7 +18,7 @@ FOUNDATION_EXPORT NSString *const locationStream;
 FOUNDATION_EXPORT NSString *const genericStream;
 FOUNDATION_EXPORT NSString *const testStream;
 
-- (void) auth: (NSString*)sdkKey token:(NSString*)token secret:(NSString*)secret;
+- (void) sdkKey: (NSString*)sdkKey publicKey:(NSString*)publicKey secretKey:(NSString*)secretKey;
 - (void) trackLocation: (CLLocation*)location;
 - (void) track: (NSDictionary*)data;
 @end
