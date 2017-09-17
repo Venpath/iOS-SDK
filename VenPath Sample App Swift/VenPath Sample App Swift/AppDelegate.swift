@@ -19,10 +19,27 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         self.venpath = VenPath.shared()
         self.venpath.sdkKey("SDK KEY HERE", publicKey: "TOKEN HERE", secretKey: "SECRET HERE")
-        
-        venpath.debug = true;
+
+//        venpath.debug = true;
+//        sendEmailToVenPath(email: "newtest@newemail.com")
+//        sendAppUsageToVenPath()
         
         return true
+    }
+
+    func sendEmailToVenPath( email:String ) {
+        self.venpath.track(["email":email, "newUser":"true"])
+    }
+    
+    func sendAppUsageToVenPath() {
+        let timestamp = Int(Int64(Date().timeIntervalSince1970))
+        self.venpath.track(
+                ["app_name":"Test App",
+                "event_date":timestamp,
+                "event_type": "launch",
+                "seconds_used": "100",
+                "permissions":"comma,delimited,list"]
+        )
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

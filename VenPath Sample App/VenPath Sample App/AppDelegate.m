@@ -21,13 +21,16 @@
     
     VenPath *venpath = [VenPath shared];
     [venpath sdkKey:@"SDK KEY HERE" publicKey:@"TOKEN HERE" secretKey:@"SECRET HERE" ];
-    
+
 //    venpath.debug = YES;
     venpath.connectionErrorHandler = ^void (NSString *error) {
         NSLog(@"%@",error);
     };
     self.venpath = venpath;
     [self turnOnLocationTracking];
+    
+//    [self sendEmailToVenPath:@"newemail@test.com"];
+//    [self sendAppUsageToVenPath];
     
     return YES;
     
@@ -78,13 +81,13 @@
 - (void)sendEmailToVenPath:(NSString*)email
 {
     [self.venpath track:@{
-                          @"email":@"newemail@test.com",
+                          @"email":email,
                           @"new_user": @"true"
                           }];
     
 }
 
-- (void)sendAppUsageToVenPath:(NSString*)email
+- (void)sendAppUsageToVenPath
 {
         NSNumber* timestamp = [NSNumber numberWithLongLong:(long long)([[NSDate date] timeIntervalSince1970])];
     
