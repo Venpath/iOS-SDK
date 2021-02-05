@@ -7,6 +7,8 @@
 
 import UIKit
 import CoreLocation
+import AppTrackingTransparency
+import AdSupport
 
 class ViewController: UIViewController, CLLocationManagerDelegate {
     
@@ -14,7 +16,31 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        requestIdPermission()
         initLocationManager()
+    }
+    
+    func requestIdPermission() {
+        if #available(iOS 14, *) {
+            ATTrackingManager.requestTrackingAuthorization { status in
+                switch status {
+                case .authorized:
+                    // Now that we are authorized we can get the IDFA
+                    NSLog(ASIdentifierManager.shared().advertisingIdentifier.uuidString)
+                case .denied:
+                    // Tracking authorization dialog was
+                    // shown and permission is denied
+                    NSLog("Denied")
+                case .notDetermined:
+                    // Tracking authorization dialog has not been shown
+                    NSLog("Not Determined")
+                case .restricted:
+                    NSLog("Restricted")
+                @unknown default:
+                    NSLog("Unknown")
+                }
+            }
+        }
     }
     
     func initLocationManager() {
